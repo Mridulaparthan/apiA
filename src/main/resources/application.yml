@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: apiA
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb1
+    username: root
+    password: H@1mysql
+  jpa:
+    hibernate:
+      ddl-auto: update
